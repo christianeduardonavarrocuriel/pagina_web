@@ -96,7 +96,7 @@ Después de acceder al **URL** que se indica, podemos ver como si se renderizó 
 127.0.0.1:32834 - - [03/Jun/2025 06:28:51] "HTTP/1.1 GET /" - 200 OK
  ````
 
- #### Imagen al entrar a nuestra aplicación web:
+ #### Imagen 1. Al entrar a nuestra aplicación web:
  ![Hola Mundo del web.py](Hola.png)
 
  ## 9. Parar el Servidor

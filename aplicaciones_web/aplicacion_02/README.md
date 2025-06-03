@@ -63,9 +63,9 @@ Esta modificación nos ayudará a que al momento de entrar a la ruta **/**, esta
  ### Nota:
  Recuerda que **index()** llama al archivo llamado **index.hmtl**, si el archivo se llamará **saludo.html** este llamaría a **saludo.html**.
 
- #### Imagen 1: Al entrar a nuestro servidor web:
+ #### Imagen 1. Al entrar a nuestro servidor web:
  ![Servidor Web](servidor_web.png)
 
- #### Imagen 2: Podemos ver el código fuente de nuestro servidor y nos damos cuenta que esta en HTML
+ #### Imagen 2. Podemos ver el código fuente de nuestro servidor y nos damos cuenta que esta en HTML:
  ![Codigo Fuente](codigo_fuente.png)
  
