@@ -54,7 +54,7 @@ Necesitamos crear una carpeta llamada **templates**, y dentro de ella un archivo
 Este ejemplo se tomó de la página [bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 
 
-# 4. Renderizar de **HTML**
+## 4. Renderizar de **HTML**
 Esta modificación nos ayudará a que al momento de entrar a la ruta **/**, esta llama a la clase **"index"**, y la clase hace que el método **GET** rendericé nuestro archivo de HTML llamado **"index.html"**.
 ````python
  return render.index()
