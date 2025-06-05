@@ -1,5 +1,4 @@
-$def with(resultado)
-
+$def with(resultado=0)
 <!DOCTYPE html>
 <html lang = "es">
 <head>
@@ -7,21 +6,21 @@ $def with(resultado)
     <meta name = "viewport" content = "width = device-width, initial-scale = 1">
     <title>Calculadora</title>
 </head>
-<body>
-    <h1>Calculadora</h1>
-    <form method="post">
+    <body>
+        <h1>Calculadora</h1>
+        <form method="post">
 
-    <label for="inp_numero1" name="lbl_numero1">Número 1:</label><br>
-    <input type="number" name="inp_numero1" id="inp_numero1" value=0><br>
+            <label for="inp_numero1" name="lbl_numero1">Número 1:</label><br>
+            <input type="number" name="inp_numero1" id="inp_numero1" value=0><br>
 
-    <label for="inp_numero2" name="lbl_numero2">Número 2:</label><br>
-    <input type="number" name="inp_numero2" id="inp_numero2" value=0><br>
+            <label for="inp_numero2" name="lbl_numero2">Número 2:</label><br>
+            <input type="number" name="inp_numero2" id="inp_numero2" value=0><br>
 
-    <label for="inp_resultado" name="lbl_resultado">Resultado:</label><br>
-    <input type="number" name="inp_resultado" id="inp_resultado" value=0 readonly><br>
+            <label for="inp_resultado" name="lbl_resultado">Resultado:</label><br>
+            <input type="number" name="inp_resultado" id="inp_resultado" value=$resultado><br>
 
-    <button type="submit" name="btn_operacion" value="suma">Suma</button>
-    </form>
+            <button type="submit" name="btn_operacion" value="suma">Suma</button>
+        </form>
 
-</body>
+    </body>
 </html>

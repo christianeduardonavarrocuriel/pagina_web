@@ -8,6 +8,10 @@ render = web.template.render('templates')
 app = web.application(urls, globals())
 
 class Calculadora:
+
+    def __init__(self):
+        pass
+
     def GET(self):
         return render.calculadora()
     
@@ -16,7 +20,7 @@ class Calculadora:
         print(formulario)
 
         numero1 = int(formulario.inp_numero1)
-        numero2 = int(formulario("inp_numero2"))
+        numero2 = int(formulario.inp_numero2)
 
         resultado = numero1 + numero2
         return render.calculadora(resultado)
